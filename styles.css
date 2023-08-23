@@ -1,0 +1,125 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+   
+
+}
+
+.header{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+h1,h2{
+    font-family: 'Raleway', sans-serif;
+}
+#col>h1{
+    font-size:48px;
+    padding-top: 70px;
+}
+#col2{
+    flex: 50%;
+    
+}
+
+#col2>img{
+    
+    height: 300px;
+    width: 600px;
+    padding: 30px;
+    
+    
+}
+#col2>a{
+    float: right;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    background-color: #3882F6; /* Green */
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#imagesSection>figure>img{
+    height: 200px;
+    width: 200px;
+    border: solid 2px #3882F6;
+    border-radius: 10px;
+
+}
+
+#imagesSection{
+    display: flex;
+  justify-content: center;
+    
+}
+
+figcaption{
+    
+    width: 200px;
+}
+
+#quote{
+    background-color: #E5E7EB;
+    padding: 70px;
+}
+#quote>p{
+    text-align: center;
+    font-size: 36px;
+}
+#actionCon{
+    
+    margin: 100px;
+    display: flex;
+}
+
+#calltoAction{
+   
+    background-color: #3882F6;
+    color: white;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+
+#calltoAction>button{
+    display: inline-block;
+    border: 1px solid white;
+    margin-left: 600px;
+    margin-top: -200px;
+    
+    
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
